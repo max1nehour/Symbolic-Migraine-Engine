@@ -1,0 +1,183 @@
+DIAGNOSIS_INSTRUCTIONS = {
+
+    "Typical aura with headache": """
+
+    #fulfill Migraine without aura criteria
+    #and
+    # >=1 aura symptoms (but no motor, brainstem or retinal symptoms.)
+    # no headache attack (frequency==0)
+
+    A. At least two attacks fulfilling criteria B and C
+    B. One or more of the following fully reversible aura symptoms:
+        - visual
+        - sensory
+        - speech and/or language
+        - motor
+        - brainstem
+        - retinal
+    C. At least three of the following six characteristics:
+        - at least one aura symptom spreads gradually over ≥5 minutes
+        - two or more aura symptoms occur in succession
+        - each individual aura symptom lasts 5-60 minutes
+        - at least one aura symptom is unilateral
+        - at least one aura symptom is positive
+        - the aura is accompanied, or followed within 60 minutes, by headache
+    D. Fulfills these three:
+        - fully reversible visual, sensory and/or speech/language aura symptoms
+        - no motor, brainstem or retinal symptoms.
+        - Headache, with or without migraine characteristics, accompanies or follows the aura within 60 minutes.
+    """,
+
+
+     "Typical aura without migraine": """
+    #fulfill Migraine without aura criteria
+    #and
+    #no headache attack (frequency==0)
+    #>= 1 aura
+
+    A. At least two attacks fulfilling criteria B and C
+    B. One or more of the following fully reversible aura symptoms:
+        - visual
+        - sensory
+        - speech and/or language
+        - motor
+        - brainstem
+        - retinal
+    C. At least three of the following six characteristics:
+        - at least one aura symptom spreads gradually over ≥5 minutes
+        - two or more aura symptoms occur in succession
+        - each individual aura symptom lasts 5-60 minutes
+        - at least one aura symptom is unilateral
+        - at least one aura symptom is positive
+        - the aura is accompanied, or followed within 60 minutes, by headache
+    D. Fullfill:
+        - No headache accompanies or follows the aura within 60 minutes
+     """,
+
+
+    "Migraine without aura": """
+
+    #at least 2 fufill in [location: unilateral or character: pulsating or (moderate or severe) pain ]
+    #frequency >= 5 
+    #nausea or vomiting or photophobia or phonophobia
+
+    A .At least five attacks fulfilling criteria B-D
+    B. Headache attacks lasting 4-72 hr (untreated or unsuccessfully treated)
+    C. Headache has at least two of the following four characteristics:
+            - unilateral location
+            - pulsating quality
+            - moderate or severe pain intensity
+            - aggravation by or causing avoidance of routine physical activity (eg, walking or climbing stairs)
+    D. During headache at least one of the following:
+            - nausea and/or vomiting
+            - photophobia and phonophobia
+    E. Not better accounted for by another ICHD-3 diagnosis.
+
+    """,
+    
+    
+    "Basilar-type aura": """
+
+    #fulfill Migraine without aura criteria
+    #and
+    #>=2 brainstem symptoms in:
+            - dysarthria
+            - vertigo
+            - tinnitus
+            - hypacusis
+            - diplopia
+            - ataxia 
+            - conscience
+
+    A. At least two attacks fulfilling criteria B and C
+    B. One or more of the following fully reversible aura symptoms:
+        - visual
+        - sensory
+        - speech and/or language
+        - motor
+        - brainstem
+        - retinal
+    C. At least three of the following six characteristics:
+        - at least one aura symptom spreads gradually over ≥5 minutes
+        - two or more aura symptoms occur in succession
+        - each individual aura symptom lasts 5-60 minutes
+        - at least one aura symptom is unilateral
+        - at least one aura symptom is positive
+        - the aura is accompanied, or followed within 60 minutes, by headache
+    D. Aura with both of the following:
+        1. at least two of the following fully reversible brainstem symptoms:
+            - dysarthria
+            - vertigo
+            - tinnitus
+            - hypacusis
+            - diplopia
+            - ataxia not attributable to sensory deficit
+            - decreased level of consciousness (GCS ≤13)
+        2. no motor or retinal symptoms.
+
+    Example: "Started feeling dizzy, room spinning. Heard ringing, vision went double. About 30 min later bad headache started"
+    """,
+    
+    "Sporadic hemiplegic migraine": """
+    #fulfill Migraine without aura criteria
+    #and
+    #dysphasia >=1 or visual >=1 or sensory >=1
+    #and dpf ==0
+    A. At least two attacks fulfilling criteria B and C
+    B. One or more of the following fully reversible aura symptoms:
+        - visual
+        - sensory
+        - speech and/or language
+        - motor
+        - brainstem
+        - retinal
+    C. At least three of the following six characteristics:
+        - at least one aura symptom spreads gradually over ≥5 minutes
+        - two or more aura symptoms occur in succession
+        - each individual aura symptom lasts 5-60 minutes
+        - at least one aura symptom is unilateral
+        - at least one aura symptom is positive
+        - the aura is accompanied, or followed within 60 minutes, by headache
+    D. Aura consisting of both of the following:
+        - fully reversible motor weakness
+        - fully reversible visual, sensory and/or speech/language symptoms.
+    E. No first- or second-degree relative fulfils criteria A, B, and C.
+    """,
+
+
+    "Familial hemiplegic migraine": """
+    #fulfill Migraine without aura criteria
+    #and
+    #dysphasia >=1 or visual >=1 or sensory >=1
+    #and dpf ==1
+
+    A. At least two attacks fulfilling criteria B and C
+    B. One or more of the following fully reversible aura symptoms:
+        - visual
+        - sensory
+        - speech and/or language
+        - motor
+        - brainstem
+        - retinal
+    C. At least three of the following six characteristics:
+        - at least one aura symptom spreads gradually over ≥5 minutes
+        - two or more aura symptoms occur in succession
+        - each individual aura symptom lasts 5-60 minutes
+        - at least one aura symptom is unilateral
+        - at least one aura symptom is positive
+        - the aura is accompanied, or followed within 60 minutes, by headache
+    D. Aura consisting of both of the following:
+        - fully reversible motor weakness
+        - fully reversible visual, sensory and/or speech/language symptoms.
+    E. At least one first- or second-degree relative has had attacks fulfilling criteria A, B, and C.
+
+    """,
+
+
+
+    "Other": """
+    #all those remain
+    - Follow general migraine pattern with atypical features
+    - Can mention uncertainty or uncommon symptoms
+    """,
+}
